@@ -1,0 +1,103 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Development\\GitHub\\amplify-test-monorepo\\dotnet-backend\\src\\DotnetLambda\\DotnetLambda\\DotnetLambda.csproj": {}
+  },
+  "projects": {
+    "D:\\Development\\GitHub\\amplify-test-monorepo\\dotnet-backend\\src\\DotnetLambda\\DotnetLambda\\DotnetLambda.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Development\\GitHub\\amplify-test-monorepo\\dotnet-backend\\src\\DotnetLambda\\DotnetLambda\\DotnetLambda.csproj",
+        "projectName": "DotnetLambda",
+        "projectPath": "D:\\Development\\GitHub\\amplify-test-monorepo\\dotnet-backend\\src\\DotnetLambda\\DotnetLambda\\DotnetLambda.csproj",
+        "packagesPath": "D:\\Development\\Packages",
+        "outputPath": "D:\\Development\\GitHub\\amplify-test-monorepo\\dotnet-backend\\src\\DotnetLambda\\DotnetLambda\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ErikKarlsson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\Development\\LocalPackages": {},
+          "https://www.myget.org/F/emg/api/v3/index.json": {},
+          "https://www.myget.org/F/emgprivate/auth/dc2c6ce2-3bb8-4bfd-befa-9eefd9066c0e/api/v3/index.json": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Amazon.Lambda.Logging.AspNetCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Kralizek.Lambda.Template": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
